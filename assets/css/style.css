@@ -1,0 +1,112 @@
+/* Global Styles */
+.container-fluid {
+    background-color: black;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+p,
+li,
+a,
+small {
+    font-family: 'Poppins', sans-serif;
+}
+
+#about h1 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+#highlighted h1 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+#contactform h1 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+#about i {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+
+.linea-recta {
+    height: 1px;
+    /* Grosor de la línea */
+    background-color: gray;
+    /* Color de la línea */
+    border-radius: 0.5px;
+    /* Radio de borde para hacer el extremo romo */
+    margin-left: auto;
+    /* Centrar horizontalmente */
+    margin-right: auto;
+    /* Centrar horizontalmente */
+}
+
+.linea-recta1 {
+    height: 1px;
+    /* Grosor de la línea */
+    background-color: gray;
+    /* Color de la línea */
+    border-radius: 0.5px;
+    /* Radio de borde para hacer el extremo romo */
+    margin-left: auto;
+    /* Centrar horizontalmente */
+    margin-right: auto;
+    /* Centrar horizontalmente */
+    width: 80%;
+    /* Longitud de la línea */
+}
+
+.linea-recta2 {
+    height: 1px;
+    /* Grosor de la línea */
+    background-color: gray;
+    /* Color de la línea */
+    border-radius: 0.5px;
+    /* Radio de borde para hacer el extremo romo */
+    margin-left: auto;
+    /* Centrar horizontalmente */
+    margin-right: auto;
+    /* Centrar horizontalmente */
+    width: 95%;
+    /* Longitud de la línea */
+}
+
+.linea-recta3 {
+    height: 1px;
+    /* Grosor de la línea */
+    background-color: gray;
+    /* Color de la línea */
+    border-radius: 0.5px;
+    /* Radio de borde para hacer el extremo romo */
+    margin-left: auto;
+    /* Centrar horizontalmente */
+    margin-right: auto;
+    /* Centrar horizontalmente */
+    width: 100%;
+    /* Longitud de la línea */
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+i {
+    font-size: 30px
+}
