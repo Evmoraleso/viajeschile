@@ -33,9 +33,8 @@
         <header>
             <div class="row">
                 <div class="col-lg-12 col-xs-12">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top"
-                        style="padding-left: 20px; padding-right: 20px;">
-                        <a class="navbar-brand" style="color: white;" href="#">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top px-3">
+                        <a class="navbar-brand text-white" href="#">
                             <img src="./assets/img/viajes.svg" alt="Logo" width="30" height="24"
                                 class="d-inline-block align-text-top">Viajes Chile
                         </a>
@@ -47,17 +46,16 @@
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link active" style="color: white;" aria-current="page"
-                                        href="#">Inicio</a>
+                                    <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" style="color: white;" href="#">Quienes Somos</a>
+                                    <a class="nav-link text-white" href="#">Quienes Somos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" style="color: white;" href="#">Destacados</a>
+                                    <a class="nav-link text-white" href="#">Destacados</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" style="color: white;" href="#">Contacto</a>
+                                    <a class="nav-link text-white" href="#">Contacto</a>
                                 </li>
                             </ul>
                         </div>
@@ -67,7 +65,7 @@
         </header>
 
         <!--Section 2 carousel-->
-        <section>
+        <section id="carousel-section">
             <div class="row">
                 <div class="col-lg-12 col-xs-12">
                     <div id="carouselchile" class="carousel slide">
@@ -97,18 +95,18 @@
             </div>
         </section>
 
-        <!--Section 3 About parrafos-->
-        <section id="about" class="fondo">
-            <h1 style="padding-top: 50px;">¿QUIÉNES SOMOS?</h1>
+        <!--Section 3 About-->
+        <section id="about-section" class="text-white">
+            <h1>¿QUIÉNES SOMOS?</h1>
             <!--Section 3 line-->
             <div id="bootom-about">
                 <div class="row">
-                    <div class="col-lg-12 col-xs-12" style="margin-top: 30px;">
+                    <div class="col-lg-12 col-xs-12">
                         <div class="linea-recta1"></div>
                     </div>
                 </div>
             </div>
-            <div class="row" style="margin-left: 100px; margin-right: 100px; margin-top: 60px;">
+            <div class="row paragraph">
                 <div class="col-lg-4">
                     <div class="text-center mb-3 bg-info">
                         <i class="fa-solid fa-plane fa-3x"></i>
@@ -160,47 +158,45 @@
             </div>
         </section>
 
-        <!--Section 4 About parrafos-->
-        <section id="highlighted" style="padding-bottom: 30px;">
-            <h1 style="padding-top: 50px;">DESTACADOS</h1>
+        <!--Section 4 Cards-->
+        <section id="highlighted-section">
+            <h1>DESTACADOS</h1>
             <!--Section 4 line-->
             <div id="bootom-highlighted">
                 <div class="row">
-                    <div class="col-lg-12 col-xs-12" style="margin-top: 30px;">
+                    <div class="col-lg-12 col-xs-12 mt-4">
                         <div class="linea-recta2"></div>
                     </div>
                 </div>
             </div>
-            <div class="row row-cols-1 row-cols-md-4 g-4"
-                style="margin-left: 100px; margin-right: 100px; margin-top: 30px;">
+            <div class="row row-cols-1 row-cols-md-4 g-4 margin-row">
                 <div class="col">
                     <div class="card text-bg-info">
                         <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Card Destacado 1</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to
-                                additional content. This content is a little bit longer.</p>
+                                to additional content. This content is a little bit longer.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card text-bg-info">
-                      <img src="./assets/img/card2.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                      </div>
+                        <img src="./assets/img/card2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Destacado 2</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                        </div>
                     </div>
-                  </div>
+                </div>
                 <div class="col">
                     <div class="card text-bg-info">
                         <img src="./assets/img/card3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Card Destacado 3</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to
-                                additional content. This content is a little bit longer.</p>
+                                to additional content. This content is a little bit longer.</p>
                         </div>
                     </div>
                 </div>
@@ -208,26 +204,26 @@
                     <div class="card text-bg-info">
                         <img src="./assets/img/card4.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Card Destacado 4</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to
-                                additional content. This content is a little bit longer.</p>
+                                to additional content. This content is a little bit longer.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="contactform" class="text-white" style="padding-bottom: 50px;">
+        <!--Section 5 Cards-->
+        <section id="contactform-section" class="text-white">
             <div class="row">
                 <div class="col-lg-12 mt-3 mb-4 d-flex justify-content-center align-items-center">
-                    <h1 style="padding-top: 30px;">CONTACTO</h1>
+                    <h1>CONTACTO</h1>
                 </div>
             </div>
             <!--Section 4 line-->
             <div id="bootom-form">
                 <div class="row">
-                    <div class="col-lg-12 col-xs-12" style="margin-top: 0px;">
+                    <div class="col-lg-12 col-xs-12 mt-0">
                         <div class="linea-recta2"></div>
                     </div>
                 </div>
@@ -238,7 +234,7 @@
                     <input type="name" class="form-control" id="inputName">
                 </div>
                 <div class="col-lg-8 g-4">
-                    <label for="inputEmail4" class="form-label">Correo electrónico</label>
+                    <label for="inputEmail4" class="form-label">Asunto</label>
                     <input type="email" class="form-control" id="inputEmail4">
                 </div>
                 <div class="col-lg-8 g-4">
@@ -246,13 +242,16 @@
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
                 <div class="col-lg-8 g-4">
-                    <button type="button" class="btn bg-info float-right">Enviar</button>
+                    <button type="button" class="btn bg-info float-right" data-bs-toggle="tooltip"
+                        data-bs-placement="right"
+                        data-bs-title="Presiona para enviar el mensaje de contacto.">Enviar</button>
                 </div>
             </form>
         </section>
 
+        <!--Footer-->
         <footer class="bg-info">
-            <div class="row" style="margin-left: 100px; margin-right: 100px; padding-top: 20px; ">
+            <div class="row row-style">
                 <div class="col-md-6 col-xs-12">
                     <p>VIAJES CHILE</p>
                 </div>
@@ -266,44 +265,25 @@
         </footer>
 
     </div>
-    <!--   <script>
-    $(document).ready(function () {
-        //Requerimiento 3: Muestra un mensaje de alerta al hacer click en el boton con id enviarCorreo
-        $("#enviarCorreo").click(function () {
-            alert("El correo fue enviado correctamente...");
+
+    <script>
+        /* Desaparece la seccion about cuando se achica la pantalla */
+        window.addEventListener('resize', function () {
+            var screenWidth = window.innerWidth;
+            if (screenWidth < 768) {
+                document.getElementById('about-section').style.display = 'none';
+            } else {
+                document.getElementById('about-section').style.display = 'block';
+            }
         });
 
-        $("span").on("dblclick", function () {
-            $(this).css({ "color": "red" });
-        });
-
-        // Requerimiento 4: Seleccionar todas las tarjetas "card" y agregar un controlador de eventos para el clic en el título
-        $(".card").on("click", ".card-title", function () {
-            // Obtener el contenido de la tarjeta actual
-            var contenido = $(this).siblings(".card-body").find(".card-text");
-
-            // Alternar la visibilidad del contenido de la tarjeta actual
-            contenido.toggle();
-        });
-
-        // Requerimiento 5: Desaparecer y aparecer el contenido en todas las tarjetas "card" de la sección de Recetas Relacionadas
-        $(".card").on("click", ".card-title", function () {
-            $(".card").toggle("slow");
-        });
-
-        $("#receta").on("click", function () {
-            $(".card").toggle("slow");
-        });
-
+        /*Muestra un tooltip en el boton enviar que esta el formuluario de contacto*/
         var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
         var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
             return new bootstrap.Tooltip(tooltipTriggerEl)
         })
 
-    });
-
-
-</script> -->
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"

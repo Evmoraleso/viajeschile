@@ -1,103 +1,76 @@
-/* Global Styles */
 .container-fluid {
     background-color: black;
 }
 
 h1,
-h2,
-h3 {
+#about-section h1,
+#highlighted-section h1,
+#contactform-section h1 {
     font-family: 'Lato', sans-serif;
     color: white;
-}
-
-p,
-li,
-a,
-small {
-    font-family: 'Poppins', sans-serif;
-}
-
-#about h1 {
     font-size: 30px;
     text-align: center;
-    color: white;
 }
 
-#highlighted h1 {
-    font-size: 30px;
-    text-align: center;
-    color: white;
+#about-section h1 {
+    padding-top: 50px;
 }
 
-#contactform h1 {
-    font-size: 30px;
-    text-align: center;
-    color: white;
+#about-section .paragraph {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 60px;
 }
 
-#about i {
+#about-section i {
     text-align: center;
     color: white;
     font-size: 30px;
 }
 
+i {
+    font-size: 30px
+}
 
-.linea-recta {
-    height: 1px;
-    /* Grosor de la línea */
-    background-color: gray;
-    /* Color de la línea */
-    border-radius: 0.5px;
-    /* Radio de borde para hacer el extremo romo */
-    margin-left: auto;
-    /* Centrar horizontalmente */
-    margin-right: auto;
-    /* Centrar horizontalmente */
+#highlighted-section {
+    padding-bottom: 30px;
+}
+
+#highlighted-section .margin-row {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+#highlighted-section h1 {
+    padding-top: 50px;
+}
+
+#contactform-section h1 {
+    padding-top: 30px;
 }
 
 .linea-recta1 {
     height: 1px;
-    /* Grosor de la línea */
     background-color: gray;
-    /* Color de la línea */
     border-radius: 0.5px;
-    /* Radio de borde para hacer el extremo romo */
     margin-left: auto;
-    /* Centrar horizontalmente */
     margin-right: auto;
-    /* Centrar horizontalmente */
     width: 80%;
-    /* Longitud de la línea */
+    margin-top: 30px;
 }
 
 .linea-recta2 {
     height: 1px;
-    /* Grosor de la línea */
     background-color: gray;
-    /* Color de la línea */
     border-radius: 0.5px;
-    /* Radio de borde para hacer el extremo romo */
     margin-left: auto;
-    /* Centrar horizontalmente */
     margin-right: auto;
-    /* Centrar horizontalmente */
     width: 95%;
-    /* Longitud de la línea */
 }
 
-.linea-recta3 {
-    height: 1px;
-    /* Grosor de la línea */
-    background-color: gray;
-    /* Color de la línea */
-    border-radius: 0.5px;
-    /* Radio de borde para hacer el extremo romo */
-    margin-left: auto;
-    /* Centrar horizontalmente */
-    margin-right: auto;
-    /* Centrar horizontalmente */
-    width: 100%;
-    /* Longitud de la línea */
+#contactform-section{
+    padding-bottom: 50px;
 }
 
 footer {
@@ -107,6 +80,10 @@ footer {
     font-size: 20px;
 }
 
-i {
-    font-size: 30px
+.row-style {
+
+margin-left: 100px; 
+margin-right: 100px; 
+padding-top: 20px; 
 }
+
